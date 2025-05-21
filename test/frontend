@@ -1,0 +1,16 @@
+frontend/
+├── src/
+│   ├── components/            # Reusable UI components
+│   │   ├── ProposalList.js    # Displays list of voting proposals
+│   │   └── VoteButton.js      # Component for casting votes
+│   ├── config/                # Configuration files for contract details (address, ABI)
+│   │   └── contractConfig.js  # Stores deployed contract address and ABI
+│   ├── utils/                 # Utility functions for blockchain interaction
+│   │   └── web3Utils.js       # Handles Ethers.js/Web3.js setup and contract calls
+│   ├── App.js                 # Main application component
+│   ├── index.js               # Entry point for the React application
+│   └── styles/                # Stylesheets for the application
+│       └── App.css            # Main application styles
+├── public/                    # Static assets (HTML, images, etc.)
+├── package.json               # Project dependencies and scripts
+└── README.md                  # Specific README for the frontend (optional but recommended)
